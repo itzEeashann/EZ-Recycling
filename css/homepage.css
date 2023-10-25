@@ -1,0 +1,354 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto+Slab&family=Ubuntu&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif
+}
+
+.top{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.tt{
+    font-size: 30px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: darkolivegreen;
+    cursor: pointer;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: darkgreen;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: aquamarine;
+    transition: .4s;
+}
+
+.btn{
+    background-color: coral;
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover{
+    color: blue;
+    transition: .4s;
+}
+
+.content{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+
+.about{
+    width: 100%;
+    /* padding: 100px 0px; */
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+}
+
+.about-content{
+    width: 100%;
+}
+
+.main{
+    height: 700px;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 30px;
+    margin: 20px;
+    margin: 20px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("../images/2.png");
+    background-size: cover;
+    
+}
+
+.about-content h2{
+    color: rgb(199, 150, 245);
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.about-content h5{
+    color:rgb(4, 4, 68);
+    font-size: 20px;
+        font: 500;
+    letter-spacing: 1px;
+}
+
+.about-content p{
+    color: black;
+    font-size: 20px;
+    font: 500;
+    letter-spacing: 1px;
+}
+
+button{
+    background-color: palevioletred;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 13px 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: .4s;
+}
+
+button:hover{
+    background-color: aquamarine;
+    cursor:pointer
+}
+
+.service{
+    background-color: rgb(235, 247, 220);
+    width: 100%;
+    padding:100px 0px;
+}
+
+.title h2{
+    color: rgb(246, 178, 53);
+    font-size: 50px;
+    font-weight: 500px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400p;
+}
+
+.c{
+    height:400px;
+    width: 335px;
+    padding: 15px ;
+    background: #9ef1e4;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.c i{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: rgb(22, 184, 22);
+}
+
+h5{
+    color: aliceblue;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.paragraph p{
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    line-height: 27px;
+    margin-bottom: 25px;
+    font-weight: 800;
+    text-align: justify;
+}
+
+.c h5{
+    font-size: 2rem;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+.c .button{
+    background: linear-gradient(130deg, #ffa80f 30%, #fe581d 70%);
+    color: rgb(1, 1, 1);
+    text-decoration: none;
+    border: 2px solid black;
+    font-size: 1.3rem;
+    font-weight: 500px;
+    padding: 9px 31px;
+    border-radius: 30px;
+    transition: .4s;
+    width:300px;
+}
+
+.c .button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 10px;
+    border: solid rgb(255, 255, 255);
+    
+}
+
+.quotes{
+    width:100%;
+    height: 150px;
+    background: #38f9d7;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quotes p{
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: blanchedalmond;
+}
+
+footer .fc{
+    max-width: 1250px;
+    margin: auto;
+    padding: 30px 40px 40px 40px;
+}
+
+footer .fc .left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fc .left .logo{
+    color: black;
+    font-size: 25px;
+}
+
+.fc .left .logo .copyright{
+    color: #E1306C;
+    font-size: 10px;
+}
+
+.fc .left .media{
+    display: flex;
+}
+
+.fc .left .media a{
+    height: 40px;
+    width: 40px;
+    background: red;
+    margin: 0 8px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.left .media a:nth-child(1){
+    background: #4267B2;
+}
+
+.left .media a:nth-child(1):hover{
+    color: #4267B2;
+    background: #fff;
+}
+
+.left .media a:nth-child(2){
+    background: #E1306C;
+}
+
+.left .media a:nth-child(2):hover{
+    color: #E1306C;
+    background: #fff;
+}
+
+.left .media a:nth-child(3){
+    background: #1DA1F2;
+}
+
+.left .media a:nth-child(3):hover{
+    color: #1DA1F2;
+    background: #fff;
+}
+
+.left .media a:nth-child(4){
+    background: #0077B5;
+}
+
+.left .media a:nth-child(4):hover{
+    color: #0077B5;
+    background: #fff;
+}
+
+.left .media a:nth-child(5){
+    background: #FF0000;
+}
+
+.left .media a:nth-child(5):hover{
+    color: #FF0000;
+    background: #fff;
+}
+
+.btt{
+    position:fixed;
+    width: 50px;
+    height: 50px;
+    background: greenyellow;
+    border-radius: 50%;
+    right: 30px;
+    bottom: 40px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: aliceblue;
+}
+

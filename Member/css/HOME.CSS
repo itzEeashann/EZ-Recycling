@@ -1,0 +1,51 @@
+  h2{
+    text-align: center;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #33110a;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto 100px;
+    padding: 105px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr{background-color: #f2f2f2}
+  
+  th {
+    background-color: #33110a;
+    color: white;
+    text-align: center;
+  }
+
+
+button {
+  background-color: #33110a;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  color: #fff;
+
+}
+
+button:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+button:hover {
+  background-color: #803e31fe;
+}
+
+button:active {
+  background-color: #33110a;
+}
